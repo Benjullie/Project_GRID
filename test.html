@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    /* grid-template-columns: 55% 45%; */
+    gap: 8px;
+    background-color: #Fdf2e9;
+    grid-template-columns: 55fr 45fr;
+    align-items: center;
+}
+
+    .content2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding: 1.9rem;
+}
+
+.content2 > div {
+    height: 200px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+
+</style>
+<body>
+    <div class="parent">
+    <div class="content1">
+        <div class="text-section">
+            <h6>
+                TESTIMONIALS
+            </h6>
+            <h1>
+                Once you try it, you can't go<br>back
+            </h1>
+        </div>
+        <div class="main">
+            <div class="main-testimonial">
+                <img class="testimonial-images" src="Images/dave.jpg" alt="dave's-picture">
+                <p>Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.</p>
+                <p>— Dave Bryson</p>
+            </div>
+            <div class="main-testimonial">
+                <img class="testimonial-images" src="Images/ben.jpg" alt="ben's-picture">
+                <p>The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!</p>
+                <p>— Ben Hadley</p>
+            </div>
+            <div class="main-testimonial">
+                <img class="testimonial-images" src="Images/steve.jpg" alt="steve's-picture">
+                <p>Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!</p>
+                <p>— Steve Miller</p>
+            </div>
+            <div class="main-testimonial">
+                <img class="testimonial-images" src="Images/hannah.jpg" alt="hannah's-picture">
+                <p>I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.</p>
+                <p>— Hannah Smith</p>
+            </div>
+        </div>
+    </div>
+    <div class="content2">
+        <div><img src="Images/gallery-1.jpg" alt=""></div>
+        <div><img src="Images/gallery-2.jpg" alt=""></div>
+        <div><img src="Images/gallery-3.jpg" alt=""></div>
+        <div><img src="Images/gallery-4.jpg" alt=""></div>
+        <div><img src="Images/gallery-5.jpg" alt=""></div>
+        <div><img src="Images/gallery-6.jpg" alt=""></div>
+        <div><img src="Images/gallery-7.jpg" alt=""></div>
+        <div><img src="Images/gallery-8.jpg" alt=""></div>
+        <div><img src="Images/gallery-9.jpg" alt=""></div>
+        
+        
+    </div>
+</div>
+</body>
+</html>
